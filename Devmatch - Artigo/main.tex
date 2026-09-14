@@ -1,0 +1,39 @@
+% DevMatch - Entrega parcial 18/09/2026
+% Projeto autocontido para Overleaf.
+% Compilador recomendado: XeLaTeX.
+\documentclass[portuguese]{sbcreviews-2025}
+
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{placeins}
+\usepackage{microtype}
+\usepackage{ragged2e}
+
+\definecolor{engtitle}{rgb}{0.35,0.35,0.35}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.0}
+\hypersetup{colorlinks=true,breaklinks=true,linkcolor=darkblue,urlcolor=darkblue,citecolor=darkblue}
+
+\newcommand{\diagraminclude}[2][0.96\linewidth]{\includegraphics[width=#1]{#2}}
+
+\category{Trabalho Prático -- Projeto de Software -- Entrega Parcial 18/09/2026}
+\title[DevMatch: requisitos e modelagem de projeto]{DevMatch: Especificação de Requisitos e Modelagem de Projeto de uma Plataforma de Contratação de Profissionais de TI}
+\engtitle{\textcolor{engtitle}{DevMatch: Requirements Specification and Software Design Modeling for an IT Professionals Marketplace}}
+
+\author[Augusto et al. 2026]{
+\affil{\textbf{Bernardo Augusto} -- Pontifícia Universidade Católica de Minas Gerais -- PUC Minas}
+\affil{\textbf{Cleverson Resende} -- Pontifícia Universidade Católica de Minas Gerais -- PUC Minas}
+\affil{\textbf{Rafael Lopes} -- Pontifícia Universidade Católica de Minas Gerais -- PUC Minas}
+\affil{\textbf{Matheus Augusto} -- Pontifícia Universidade Católica de Minas Gerais -- PUC Minas}
+}
+
+\begin{document}
+\begin{frontmatter}
+\maketitle
+\begin{mail}
+Curso de Engenharia de Software -- PUC Minas. Disciplina: Projeto de Software. Professora: Milena Menezes Adão.
+\end{mail}
+\end{frontmatter}
+
+\input{conteudo.tex}
+\end{document}
